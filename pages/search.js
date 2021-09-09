@@ -1,8 +1,9 @@
 import { useRouter } from "next/dist/client/router";
 import React from "react";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
 import InfoCard from "../components/InfoCard";
+import Footer from "../components/Footer";
+import Map from "../components/Map";
 import { format } from "date-fns";
 
 function search({ searchResults }) {
@@ -11,8 +12,6 @@ function search({ searchResults }) {
   const formatStartDate = format(new Date(startDate), "dd MMMM yy");
   const formatEndDate = format(new Date(endDate), "dd MMMM yy");
   const range = `${formatStartDate} - ${formatEndDate}`;
-
-  console.log(searchResults);
 
   return (
     <div>
@@ -63,6 +62,10 @@ function search({ searchResults }) {
               )
             )}
           </div>
+        </section>
+
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+          <Map searchResults={searchResults} />
         </section>
       </main>
 
