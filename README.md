@@ -1,29 +1,49 @@
-# Next.js + Tailwind CSS Example
+# <p align="center"> <a href="https://airbnb-clone-syberseul.vercel.app/"> Airbnb Clone </a>(Official page:https://www.airbnb.co.uk/)</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Table of Contents
+- <a href="#about"> About the Project </a>
+  - <a href="#built-with"> Build With </a>
+  - <a href="#feature"> Feature </a>
+- <a href="#getting-started"> Getting Started </a>
+  - <a href="#prerequisites"> Prerequisites </a>
+  - <a href="#requiredConfig"> Required Config </a>
+  - <a href="#installation"> Installation </a>
+- <a href="#demo"> Demo </a>
+- <a href="#contact"> Contact </a>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## <a id="about"> About the Project </a>
+A clone version of Airbnb developed with Next.js, Vercel hosting
 
-## Preview
+- <a id="built-with"> Built with: </a>
+  - <a href="https://nextjs.org/"> Next.js </a>
+  - <a href="https://vercel.com/"> Vercel </a>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+- <a id="feature"> Features: </a>
+  - [x] Mobile Responsive
+  - [x] SSR (server-side rendering)
+  - [x] Calendar date picking
+  - [x] Processing bar when redirecting to another page
+  - [x] Map system to show location (api responds related) 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## <a id="getting-started"> Getting Started: </a>
 
-## Deploy your own
+### <a id="prerequisites"> Prerequisites: </a>
+This section is about tips to help you play with this demo on your own machine
+  1. (Optional) Enter `npm install npm@latest -g` in your vsCode terminal to install latest npm globally
+  2. (Optional) Enter `npm -v` in your vsCode terminal and make sure it gives the version of your npm
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### <a id="requiredConfig"> Required Config: </a>
+  1. (Optional) Go to <a href="https://vercel.com/">Vercel</a> and login (or create) account
+  2. (Optional) Get into Vercel and create a project which will be used to host the demo 
+  3. Go to <a href="https://www.mapbox.com/">mapbox</a> and login (or create) account
+  4. Once login in mapbox, go to Mapbox Studio and add `New style`, get your own `access token` and `style URL`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### <a id="installation"> Installation: </a>
+  1. Clone the repo to your local machine `https://github.com/Syberseul/Airbnb_Clone.git`
+  2. Install required dependencies `npm install`
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## <a id="demo"> Demo </a>
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## <a id="contact"> Contact Email: </a>
+yteng.huang@gmail.com
