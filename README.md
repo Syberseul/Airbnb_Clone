@@ -42,12 +42,17 @@ This section is about tips to help you play with this demo on your own machine
 1. (Optional) Go to <a href="https://vercel.com/">Vercel</a> and login (or create) account
 2. (Optional) Get into Vercel and create a project which will be used to host the demo
 3. Go to <a href="https://www.mapbox.com/">mapbox</a> and login (or create) account
-4. Once login in mapbox, go to Mapbox Studio and add `New style`, get your own `access token` and `style URL`
+4. Once login in mapbox, go to Mapbox Studio and add `New style`, get your own `ACCESS TOKEN` and `STYLE URL`
 
 ### <a id="installation"> Installation: </a>
 
 1. Clone the repo to your local machine `https://github.com/Syberseul/Airbnb_Clone.git`
 2. Install required dependencies `npm install`
+3. Create `.env` file at the root of the folder, and enter config which get previously in `Required Config` section:
+```
+MAPBOX_STYLE= STYLE URL goes here
+MAPBOX_KEY= ACCESS Token goes here
+```
 
 ## <a id="demo"> Demo </a>
 
