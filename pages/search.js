@@ -22,7 +22,13 @@ function search({ searchResults }) {
       <main className="flex">
         <section className="flex-grow pt-10 px-6">
           <p className="text-xs">
-            300+ stays - {range} - for {numberOfGuests} guests
+            300+ stays -{" "}
+            <span className="p-1 bg-red-300 rounded-xl"> {range} </span> - for
+            <span className="font-semibold text-red-400">
+              {" "}
+              {numberOfGuests}{" "}
+            </span>
+            guests
           </p>
           <h1 className="text-3xl font-semibold mt-2 mb-6">
             Stays in {location}
