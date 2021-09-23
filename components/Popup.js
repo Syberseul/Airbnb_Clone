@@ -9,7 +9,7 @@ function Popup() {
   if (popup) {
     return (
       <div className="fixed w-[100%] h-[100%] z-50">
-        <div className="absolute w-[400px] h-[450px] bg-gray-400 opacity-90 top-[50%] left-[50%] mt-[-15%] ml-[-10%]">
+        <div className="absolute w-[400px] h-[450px] bg-gray-200 opacity-90 top-[50%] left-[50%] mt-[-15%] ml-[-10%]">
           <p className="font-bold text-3xl my-[1rem] ml-[1rem]">Instruction:</p>
           <div className="mx-[1.5rem]">
             <p className="py-[0.5rem] font-bold">
