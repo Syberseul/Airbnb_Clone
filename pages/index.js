@@ -15,8 +15,8 @@ export default function Home({ smallCard, mediumCard, discoverCard }) {
         <title>Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Popup />
       <Header />
+      <Popup />
       <Banner />
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
         <section className="pt-5">
