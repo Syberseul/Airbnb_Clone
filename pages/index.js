@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Popup from "../components/Popup";
 import Banner from "../components/Banner";
 import DiscoverCard from "../components/DiscoverCard";
 import Footer from "../components/Footer";
@@ -14,6 +15,7 @@ export default function Home({ smallCard, mediumCard, discoverCard }) {
         <title>Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Popup />
       <Header />
       <Banner />
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
